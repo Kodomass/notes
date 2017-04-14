@@ -10,7 +10,7 @@ pytest.set_trace()
 
 Call the test with `--pbd` option:
 
-```python
+```bash
 py.test --pdb unit_test.py
 ```
 
