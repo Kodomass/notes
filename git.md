@@ -1,20 +1,20 @@
 # git commands
 
-Show last commit's `diff`
+Show last commit's `diff`:
 
 ```git
 git show
 ```
 it is an alias for `git diff @~..@`.
 
-Set and remove remote upstream link
+Set and remove remote upstream link:
 ```git
-git branch --set-upstream-to origin/some_remote
+git branch --set-upstream-to origin/some_remote_branch
 
 git branch --unset-upstream
 ```
 
-Checkout previous branch
+Checkout previous branch:
 ```git
 git checkout -
 ```
