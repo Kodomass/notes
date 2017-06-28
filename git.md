@@ -30,6 +30,12 @@ Show `diff` by these commits (note 3 dots!):
 git diff new-branch...old-branch
 ```
 
+Show all branches which can be safely deleted, since those branches are
+fully contatined in HEAD
+```git
+git branch --merged
+```
+
 
 Work with branches:
 -------------------
@@ -46,6 +52,7 @@ Checkout previous branch:
 git checkout -
 ```
 which is an alias of `git checkout @{-1}`.
+
 
 Clean branches:
 ---------------
